@@ -4,11 +4,11 @@
     --cor-primaria: #536b3f;
     --cor-primaria-escura: #35452a;
     --cor-destaque: #dce6c8;
-    --cor-fundo: #f8f5ec;
+    --cor-fundo: #b8e99f;
     --cor-fundo-escuro: #263321;
     --cor-texto: #292d25;
     --cor-texto-suave: #65695e;
-    --cor-branca: #ffffff;
+    --cor-branca: #fbfff9;
     --cor-borda: #e5e1d5;
     --fonte-base: 'Poppins', Arial, sans-serif;
 }
@@ -56,7 +56,7 @@ a {
 /* CABEÇALHO */
 
 .cabecalho {
-    background-color: var(--cor-branca);
+    background-color: #b8e99f;
     border-bottom: 1px solid var(--cor-borda);
     position: relative;
     z-index: 10;
@@ -239,7 +239,7 @@ a {
 }
 
 .card {
-    background-color: var(--cor-branca);
+    background-color: #ffffff;
     border: 1px solid var(--cor-borda);
     border-radius: 1rem;
     overflow: hidden;
@@ -320,7 +320,7 @@ a {
 }
 
 .passo {
-    background-color: var(--cor-branca);
+    background-color: #ffffff;
     border: 1px solid var(--cor-borda);
     border-radius: 1rem;
     padding: 2rem 1.5rem;
@@ -532,7 +532,6 @@ a {
     .rodape-grade {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media (max-width: 768px) {
